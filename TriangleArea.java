@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
-public class EquilateralTriangleArea {
+public class TriangleArea {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double arm = sc.nextDouble();
+        double base = sc.nextDouble();
+        double height = sc.nextDouble();
 
-        double area = (Math.sqrt(3) / 4) * Math.pow(arm, 2);
+        double area = 0.5 * base * height;
         System.out.println(area);
+        sc.close();
     }
 }
