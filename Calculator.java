@@ -15,7 +15,7 @@ public class Calculator {
        if(ch=='-') {
            c=a-b;
        }
-       if(ch=='*'){ // Changed '-' to '*'
+       if(ch=='*'){ 
            c=a*b;
        }
        if (ch=='/') {
