@@ -13,10 +13,10 @@ class Filter {
     }
 
 
-    public void filterProducts(String brand, boolean isBrand) {
-        if (isBrand) {
+    public void filterProducts(String brand,boolean isBrand) {
+      if(isBrand){
             System.out.println("Searching for products by brand: " + brand);
-        }
+      }
     }
 
     
@@ -38,7 +38,7 @@ public class commerce {
        
         f1.filterProducts("fashion");                          
         f1.filterProducts(100, 500);                           
-        f1.filterProducts("Nike", true);                       
+        f1.filterProducts("Nike",true);                       
         f1.filterProducts("fashion", 100, 500);               
         f1.filterProducts("fashion", 100, 500, "Nike");      
     }
